@@ -6,11 +6,11 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node app"
+    "start": "node app.js"
   },
     "engines": {
     "node": ">=16.9"
-  },
+  
   "dependencies": {
     "@babel/core": "^7.22.17",
     "@babel/node": "^7.22.15",
