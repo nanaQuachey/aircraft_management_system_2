@@ -1,0 +1,41 @@
+extends layout
+
+block content
+  .main_content
+    
+    .intro_homePage
+      
+   
+      p Welcome Dear  #{username} ,
+      br 
+      a(href="/logout" title="logout")
+        img(src="/images/logout.svg", alt="")
+     
+        
+        //- p what do you want to do today ? 
+    
+      
+    
+  .container  
+    .link_icon    
+      a(href="/add_user")
+        img(src="/images/users.svg", alt="add user icon") 
+      
+      p add aircraft
+    .link_icon 
+      a(href="/showAll")
+        img(src="/images/statistics.svg", alt="add user icon") 
+      
+      p all aircrafts
+    .link_icon 
+     
+      a(href="/search_user")
+        img(src="/images/search.svg", alt="add user icon") 
+      
+      p search aircraft
+
+
+
+
+
+      

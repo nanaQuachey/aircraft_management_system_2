@@ -1,0 +1,36 @@
+extends layout
+block content
+    .main_content
+
+        div.form_container_login 
+
+            form.validated-form(action="/search", method="POST") 
+                div.content1 
+                
+                    br
+                    br
+
+                    label.label(for="search_key") Search Employee by
+                    br
+                    br
+                    select(name="search_by")
+                                option(value="aircraft_name") aircraft name
+                                option(value="aircraft_nubmer") aircraft number
+                                option(value="phone") phone number
+                          
+                                
+
+
+                    br
+                    br
+                    input.input.search(type="text" name="search_key" placeholder="aircraft name or number" required="required")
+                    br
+                    br
+
+                    button.submit search
+                    
+                
+            
+
+                    
+                    

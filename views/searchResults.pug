@@ -1,0 +1,47 @@
+extends layout
+block content
+    .main_content 
+          
+        .search_main_container
+            //- .things
+            //-     p searched by :  #{search_by} , #{search_key}.
+        
+            //-     p aircrafts found : #{totalSearches}
+            each result in searchResults
+                .search_content
+                    .search_section2
+                            a(href=`${result.imageUrl}`)
+                                img.userImage(src=`${result.imageUrl}`)
+                    br
+                    br
+
+                    .search_section1
+                        .biodata
+                            label First Name : 
+                                b #{result.aircraft_name.toUpperCase()}
+                            br
+                            label number : #{result.aircraft_number.toUpperCase()}
+                            br
+                            label hours : #{result.hours}
+                            br
+                            label landings : #{result.landings}
+                            br
+                            //- label landings : #{result.imageUrl}
+                            //- label maintenance history
+                            a(href=`/showInfo?aircraft_name=${result.aircraft_name}&aircraft_number=${result.aircraft_number}`) show info
+                          
+                                    
+                          
+                            
+                         
+                        
+                        .search_buttons
+                            a.links(href=`/update_user?aircraft_name=${result.aircraft_name}&aircraft_number=${result.aircraft_number}&hours=${result.hours}&landings=${result.landings}&servicability=${result.servicability}&date=${result.date_of_commisioning}`)
+                                button.update update
+                            
+                            a.links(href=`/delete_user?aircraft_name=${result.aircraft_name}&aircraft_number=${result.aircraft_number}`)
+                                button.delete delete
+                            
+              
+                        br
+                    br

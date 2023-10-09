@@ -1,0 +1,108 @@
+extends layout
+block content
+    
+    
+    div.form_container_add       
+
+        form.form(action="/update", method="POST") 
+            .intro
+                img(src="", alt="")
+                h6 Update #{query.aircraft_name} #{query.aircraft_number}
+            div.content1 
+                img(src="/images/1.svg", alt="" width="80px")
+                //- br
+                //- br
+                //- label.label(for="file_number") File number
+                //- br       
+                //- br   
+                //- input.input(type="text" name="file_number" placeholder="file number" required="required")
+                br
+                br
+                label.label(for="surname") aircraft name
+                br
+                br
+                input.input(type="text" name="aircraft_name" placeholder=`${query.aircraft_name}` value=`${query.aircraft_name}`)
+                br
+                br
+
+                label.label(for="aircraft number") aircraft number
+                br
+                br
+                input.input(type="text" name="aircraft_number" placeholder=`${query.aircraft_number}` value=`${query.aircraft_number}`)
+                br
+                br
+        
+                label.label(for="fight hours") flight hours
+                br
+                br
+                input.input(type="number" name="flight_hours" placeholder=`${query.hours}` value=`${query.hours}`)
+                br
+                br         
+                label.label(for="landings") landings
+                br
+                br
+                input.input(type="number" name="landings" placeholder=`${query.landings}` value=`${query.landings}`)
+
+    
+
+            div.content2
+                img(src="/images/2.svg", alt="" width="80px")
+                br
+
+                div.content2Flex       
+                            
+
+                    br
+                    br          
+                    label.label(for="date") date of commitioning
+                    input(type="date", name="date" value=`${query.date}`)
+
+                    br
+                    br    
+                    label(for="servicability") servicability
+                
+                    input(type="checkbox", name="servicability", checked=`${query.servicability}`)
+
+                    
+                    br
+                    br
+              
+
+
+
+                    div.section2
+
+
+
+
+            div.content3
+                img(src="/images/3.svg", alt="" width="80px")
+                
+                label.label(for="maintenance description") maintenance description
+              
+             
+                textarea(name="text_area", cols="40", rows="5" placeholder="maintenance description")
+                
+                label.label(for="start maintenance") Start Maintenance
+                
+                input(type="date", name="start_date")
+                input(type="time",name="start_time")
+
+                label.label(for="start maintenance") End Maintenance
+
+                input(type="date", name="end_date")
+                input(type="time",name="end_time")
+
+                label.label(for="engineers_name") Engineers name
+
+                input(type="text" name="engineers_name")
+
+                button.submit submit
+
+                
+                
+            
+        
+
+                   
+                   

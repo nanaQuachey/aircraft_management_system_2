@@ -1,0 +1,23 @@
+extends layout
+block content
+    .main_content 
+          
+        .search_main_container
+            .search_intro
+                p info page              
+                table.table
+                    th Description
+                    th Start time
+                    th Start date
+                    th End time
+                    th End date  
+                    th enginners name                     
+
+                        each result in searchResults
+                            tr
+                                td #{result.description}
+                                td #{result.start_time}
+                                td #{result.start_date}
+                                td #{result.end_time}
+                                td #{result.end_date} 
+                                td #{result.engineers_name}

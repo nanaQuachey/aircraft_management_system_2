@@ -1,0 +1,88 @@
+extends layout
+block content
+    div.form_container_add 
+        form.form(action="/new_user", method="POST", enctype="multipart/form-data") 
+            div.content1 
+                img(src="/images/1.svg", alt="" width="80px")
+                br
+                br
+                label.label(for="aircraft name") aircraft name
+                br
+                br
+                input.input(type="text" name="aircraft_name" placeholder="aircraft name" required="required")
+                br
+                br
+
+                label.label(for="aircraft number") aircraft number
+                br
+                br
+                input.input(type="text" name="aircraft_number" placeholder="aircraft number" required="required")
+                br
+                br
+           
+                label.label(for="flight hours") flight hours
+                br
+                br
+                input.input(type="number" name="flight_hours" placeholder="flight hours" required="required")
+                br
+                br         
+                label.label(for="landings") Landings
+                br
+                br
+                input.input(type="number" name="landings" placeholder="landings" required="required")
+
+       
+
+            div.content2
+                img(src="/images/2.svg", alt="" width="80px")
+                br
+
+                div.content2Flex       
+                            
+                    //- label.label(for="maintenance description") maintenance description
+                    //- br
+                    //- br
+                    //- textarea(name="text_area", cols="40", rows="1" placeholder="maintenance description")
+
+       
+                   
+
+                    br
+                    br          
+                    label.label(for="date") date of commitioning
+                    input(type="date", name="date")
+
+                    br
+                    br    
+                    label(for="efficiency status") servicability
+                
+                    input(type="checkbox", name="servicability", )
+
+
+
+                    div.section2
+                     
+                
+    
+
+
+
+
+            div.content3
+                img(src="/images/3.svg", alt="" width="80px")
+                br
+                label.label(for="upload") Upload
+                br
+                br
+                div.image_container
+                 img(src="", alt="")
+                 input.upload_btn(type="file" value="upload" name="upload")
+                //-  input.upload_btn(type="button", value="upload")
+            
+                button.submit submit
+        script(type='text/javascript', src='/javascripts/effizy2.js')    
+            
+        
+
+                   
+                   

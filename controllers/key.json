@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "imperiummanagmentpayroll",
+  "private_key_id": "b240497de68be214f53101b3bcf1c8b978b44fd2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxyrFNOJm8XK27\nYtIoMn0ix3mL1SHss/6ds5tVygz+wdnfkvUg8LJKgc4RTTYxLRVR4MjPcZk2LOJ7\niTDmn+vTMXBnFYDzh4dJW/VzlCQVsSBrWz1IK5W4lyf640JDHCxaQZ9KYZlKTRvq\nG6Ap7RRVlGw2+O8qtE874tozx4l6JvEOqEMhMc1K8dCMcrp+IdOSIyUl3AqJQlVL\nlfLpdayKH6pJT8HS98PSZKuzpy37aXD6X/hFsWaJp2Y56IKlFBiucOBKjzh3PS7X\nz8HjptcU+CX/bNsCAFAd3IitK6PMidpw9uQ3tXuhWXeXO7TVZNIcu4UG+TpDb3l+\nGf4siWixAgMBAAECggEADs2mbRxTGp6p3YIZJv0rM6fhvC2bFUMYZmeTvbUk11pr\nKmUpUVyRL8h2kLS52CbdkVNyzOjzvZHHqssNvgofP9asOf0Nn1lPv6EvQvgY+BBn\nN2EhrV5pqTS2wLpG5GEWZU509aPCOHBKrHev4oXJrWV+DCa2fTsFpOIa0nhg/0FW\nxiinMRTHCbXcvKbb+a3ihwNikbGoaAAPP41sU/dge3ZQYBaJ9iBMpO0ypSvzIFtu\nh1jHpOKS8nImcpqIVuMJ2Jior/QUhaezwrM2QzbQtTfp6D2jDIQqk2qZuffNxxMW\n8lbIXWae5cQ8DeFHbps2HQ/oBKY9Rx/gyc0JLpD7FQKBgQDXFOmUkPW0ZzGwrN2N\n/iumSvl6gE34K8b+I1oD1lAsrK8zI8mSQVzzsC3nqqF37N54h3AyuquM+xyASegy\nAHFBez/nIsIz17EI8R3NLdWTiksvi8XYkRFtW2s7kJDnNoEAi+svIomd8r5p7No8\nPI7VfImtyEHlhrpjnRmP6cOK7QKBgQDTnafFb1ZmHHyC+rTYx4M6GiQLc2eS5DKx\nkVBz6wNrKOwgqh6zvgU5wDGaEJIxqWqL2kNEl1bg+uYCyidrumv8npz99Xv/gqA+\nOxhrLCfBDzz74vdlPFH/8riOtOAWidHR0SqvSrmLik+rnvEDsRh6Reg0dhMiVYML\nLI3F1VxoVQKBgFPTHK4ASSKETYNz++1JMC3hbpXlx31/YlDN6lkwf5LJwoaF3huY\nSefXtCxj/gZFVPdYocvDoPSTMap2I37JWVqR9HfaviGCYMcBYgIDaQfVkDP5n6Ql\n9crPJF3UnATg4yoZXhHCvivG3Zte6jcryuc9YFNQhw4zkhUct0e1bbaJAoGBAI41\noquR2NQiTKKQ7LvJyCxhqNtxIKecZ1zhNNnRk6iOBbEl4iAUkNpwiGTqwfRRz+JQ\nOWh888uZkL1LMRa6XxuTVBluwXfCRwHLIOvU7ppVLTxxGKSV1t1UNibg8r7yu2hv\nUmoeo3Zc6pGA7KL4fmSdWiD3QICQStJVjKjoa4NJAoGATfhYzD0srbI+gOVqWmco\npfewbTqIrayLcCmqM0/qhBeveTcJk+TG3bwmdi5cxWKwcKfbh0CGO6TvZiKld6xE\nhJuRZMoTeHoopu4WHbmYSV6HDhkNeooIwHjxSi6AvBF7iD+cqNAlku1dbGU9sCMc\n0cvamSP+gHjl75fhKxMNLyg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-2zwxs@imperiummanagmentpayroll.iam.gserviceaccount.com",
+  "client_id": "110278692306515252571",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-2zwxs%40imperiummanagmentpayroll.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
